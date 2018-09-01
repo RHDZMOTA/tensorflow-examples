@@ -26,6 +26,11 @@ project/plugins/lib_managed
 project/plugins/target
 project/plugins/src_managed
 
+# Ensime specific
+.ensime
+.ensime_cache/
+.ensime_lucene/
+
 # intellij
 *.eml
 *.iml
