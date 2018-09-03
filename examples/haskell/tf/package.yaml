@@ -37,6 +37,7 @@ dependencies:
 - transformers
 - random
 - text
+- vector
 library:
   source-dirs: src
 

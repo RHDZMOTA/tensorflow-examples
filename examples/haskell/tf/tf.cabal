@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d14dc1ba672105b85191217f92020cc199fef7038f670ade5cb0822e0a5d7e30
+-- hash: e63c6410de7321f8789fb26d9ea4e3bef4491e146bfb60456e9f859a504f6290
 
 name:           tf
 version:        0.1.0.0
@@ -27,6 +27,8 @@ source-repository head
 library
   exposed-modules:
       Lib
+      LinearRegression
+      SimpleAddition
   other-modules:
       Paths_tf
   hs-source-dirs:
@@ -49,6 +51,7 @@ library
     , tensorflow-test
     , text
     , transformers
+    , vector
   default-language: Haskell2010
 
 executable tf-exe
@@ -77,6 +80,7 @@ executable tf-exe
     , text
     , tf
     , transformers
+    , vector
   default-language: Haskell2010
 
 test-suite tf-test
@@ -106,4 +110,5 @@ test-suite tf-test
     , text
     , tf
     , transformers
+    , vector
   default-language: Haskell2010
