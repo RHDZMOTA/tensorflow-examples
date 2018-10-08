@@ -12,6 +12,9 @@ venv
 # java specific
 *.class
 
+# tensorflow specific
+jni/
+
 # sbt specific
 target/
 project/boot
@@ -22,6 +25,11 @@ project/build/src_managed
 project/plugins/lib_managed
 project/plugins/target
 project/plugins/src_managed
+
+# Ensime specific
+.ensime
+.ensime_cache/
+.ensime_lucene/
 
 # intellij
 *.eml
